@@ -19,7 +19,11 @@
 							<Item Name="ByteArrayToNumber.vi" Type="VI" URL="../robocadSim/robots/dev/connection/helpers/ByteArrayToNumber.vi"/>
 							<Item Name="StringToUTF16LE.vi" Type="VI" URL="../robocadSim/robots/dev/connection/helpers/StringToUTF16LE.vi"/>
 						</Item>
+						<Item Name="JoinBoolChannel.vi" Type="VI" URL="../robocadSim/robots/dev/connection/JoinBoolChannel.vi"/>
+						<Item Name="JoinFloatChannel.vi" Type="VI" URL="../robocadSim/robots/dev/connection/JoinFloatChannel.vi"/>
 						<Item Name="ListenPort.vi" Type="VI" URL="../robocadSim/robots/dev/connection/ListenPort.vi"/>
+						<Item Name="ParseBoolChannel.vi" Type="VI" URL="../robocadSim/robots/dev/connection/ParseBoolChannel.vi"/>
+						<Item Name="ParseFloatChannel.vi" Type="VI" URL="../robocadSim/robots/dev/connection/ParseFloatChannel.vi"/>
 						<Item Name="TalkPort.vi" Type="VI" URL="../robocadSim/robots/dev/connection/TalkPort.vi"/>
 					</Item>
 				</Item>
@@ -30,6 +34,7 @@
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Delimited String to 1D String Array.vi"/>
 				<Item Name="UI Unicode Tools.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Tools/Unicode/UI Unicode Tools.lvlib"/>
 			</Item>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
