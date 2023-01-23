@@ -26,7 +26,9 @@
 						<Item Name="ParseFloatChannel.vi" Type="VI" URL="../robocadSim/robots/dev/connection/ParseFloatChannel.vi"/>
 						<Item Name="TalkPort.vi" Type="VI" URL="../robocadSim/robots/dev/connection/TalkPort.vi"/>
 					</Item>
+					<Item Name="ConnectionHelper.vi" Type="VI" URL="../robocadSim/robots/dev/connection/ConnectionHelper.vi"/>
 				</Item>
+				<Item Name="RT1.vi" Type="VI" URL="../robocadSim/robots/RT1.vi"/>
 			</Item>
 			<Item Name="test" Type="Folder">
 				<Item Name="Test.vi" Type="VI" URL="../robocadSim/test/Test.vi"/>
@@ -35,7 +37,6 @@
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Delimited String to 1D String Array.vi"/>
-				<Item Name="UI Unicode Tools.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Tools/Unicode/UI Unicode Tools.lvlib"/>
 			</Item>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
