@@ -26,9 +26,15 @@
 						<Item Name="ParseFloatChannel.vi" Type="VI" URL="../robocadSim/robots/dev/connection/ParseFloatChannel.vi"/>
 						<Item Name="TalkPort.vi" Type="VI" URL="../robocadSim/robots/dev/connection/TalkPort.vi"/>
 					</Item>
-					<Item Name="ConnectionHelper.vi" Type="VI" URL="../robocadSim/robots/dev/connection/ConnectionHelper.vi"/>
+					<Item Name="ConnectionHelper.vi" Type="VI" URL="../robocadSim/robots/dev/ConnectionHelper.vi"/>
+					<Item Name="InitConnection.vi" Type="VI" URL="../robocadSim/robots/dev/InitConnection.vi"/>
+					<Item Name="SetUpHelper.vi" Type="VI" URL="../robocadSim/robots/dev/SetUpHelper.vi"/>
+					<Item Name="StopConnection.vi" Type="VI" URL="../robocadSim/robots/dev/StopConnection.vi"/>
 				</Item>
-				<Item Name="RT1.vi" Type="VI" URL="../robocadSim/robots/RT1.vi"/>
+				<Item Name="RT1" Type="Folder">
+					<Item Name="ConnectRT1.vi" Type="VI" URL="../robocadSim/robots/RT1/ConnectRT1.vi"/>
+					<Item Name="RT1.vi" Type="VI" URL="../robocadSim/robots/RT1/RT1.vi"/>
+				</Item>
 			</Item>
 			<Item Name="test" Type="Folder">
 				<Item Name="Test.vi" Type="VI" URL="../robocadSim/test/Test.vi"/>
@@ -41,6 +47,7 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="LibraryForLabVIEW.dll" Type="Document" URL="../assemblies/LibraryForLabVIEW.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
